@@ -11,4 +11,3 @@ COPY --from=builder /go/bin/k6 /usr/bin/k6
 
 USER 12345
 WORKDIR /home/k6
-ENTRYPOINT ["k6"]
